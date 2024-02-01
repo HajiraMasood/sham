@@ -1,0 +1,30 @@
+{
+  "name": "sham",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "remix dev -c \"node server.js\""
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fastify/mongodb": "^8.0.0",
+    "@remix-run/node": "^2.5.1",
+    "@remix-run/react": "^2.5.1",
+    "@remix-run/serve": "^2.5.1",
+    "fastify": "^4.26.0",
+    "fastify-plugin": "^4.5.1",
+    "isbot": "^4.4.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.23.9",
+    "@babel/preset-react": "^7.23.3",
+    "@remix-run/dev": "^2.5.1"
+  }
+}
